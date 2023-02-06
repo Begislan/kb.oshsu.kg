@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>{% block title %}{% endblock %}</title>
+   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="header y22">
+      <h1 class="h11"><span>C</span>omp<span>C</span>enter</h1>
+      <h3 class="h11 y22">Сайт о программировании</h3>
+      <ul class="head_ul">
+         <li class="y22"></li>
+         <li class="head_li"><a href="{% url 'core' %}" class="head_a">Главная страница</a></li>
+         <li class="head_li"><a href="{% url 'python' %}" class="head_a">Python</a></li>
+         <li class="head_li"><a href="{% url 'java' %}" class="head_a">Java</a></li>
+         <li class="head_li"><a href="" class="head_a">C#</a></li>
+         <li class="head_li"><a href="" class="head_a">JavaScript</a></li>
+         <li class="head_li"><a href="" class="head_a">Kotlin</a></li>
+         <li class="head_li"><a href="" class="head_a">HTML</a></li>
+         <li class="head_li"><a href="" class="head_a">CSS</a></li>
+
+
+      </ul>
+   </div>
+
+   <div class="container">
+      <div class="mainDiv">
+         <div class="sidebar">
+            <ul class="bar_ul">
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+               <li class="bar_li"><a href="" class="bar_a">Глава 1</a></li>
+            </ul>
+
+             <div class="about">
+               <div class="abb">
+                  <img class="img"
+                     src="https://lh3.googleusercontent.com/xeyYULgREktUbXlIAhOVoqERoZpL3f20986BulOkmmjnZBrO5-EYMP0up7tdLIvvCAbvhdqvpq3Kf2gVrt2sUlvaHKvsVqfYk4l1B1_k9KtNlS0TaiRiZArkRaliFG7_icMyVDRtM_BEwjWK_8Bcx8-gaMikIkh39JhUkFmyvjjQaALal40d1ezXIHDWz61Jt8SF1EqmrcZlq7TUfUoVGkD75s6_hWtAx9d2mSsrD_Aa22Jjj2808JzhNjvf-9na7gqKfPrnHVs9xQV3G7U3ZlYYp20OrNNQj4WWmSlr7nxbd28U-7u9HEKAn3mgRrc1cKBanAXrEZ8bxvWF-aMzkYcTLeWMXrz5nXmJWcNuAiHUA164-2ayoa5boWlNSWDEHFeEuxsA2gI6kx5QDCRCYp2gKdp8tDYmbfrDYFQfDVp2P-rBLQnejqJdI60hgw4uYzvpnpFzZBKhE8w8qx0Fy3rUxp_rBc6Qc71T9-lsOCm-2B1NAEC59qx9diTF-8oO3_20TOYF_7lsx0S7hTNuzC_c4yLQhkalTtga6lWagDVMh5W7wgkNp43JrJy6dj1X9oHDGM5VXso2oCil-M3Vn1H3zUqBA3VhdeicIezeD1gi93Ud8-4MTY8B7aDnHSFW7M-gi7doW-amFEw6gjBBFjBf9kmse2axjbZ5B-lrLacky15ndS15M55_TB81Hqm2Y-uyglfE7aPsywX6YlqiuhInrA8Njonl_CDH9zxYBYrOt0laUeUOjfF-Ro3_M8r4NpbHbaNMF_g_vdGuOZA2dQnmchPMjczxpMqEGbps-Fj-xfzDL6yK3OtBeqpXTbBUX-JQg6UzttcCHr9d4KKAJEJwsyrgGz_nLkiWWJXHBczc5vjZVOBol06FI_XwOEH67t5kgbWZQn2ckSbmd-0kAijg7te9kQAZSC1w_kUCCzGs5z0p=w656-h657-no?authuser=0"
+                     width="180px" height="180px" alt="">
+                  <div class="ab_us">
+                     <center>
+                        <h5 class="h5">Frontend, Backend разработчик</h5>
+                        <h4 class="h4">Баястан у Бегислан</h4>
+                     </center>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+      <div class="content">
+
+         {% block content %}
+         {% endblock %}
+       
+      </div>
+<!--      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias at, cupiditate eligendi et exercitationem fuga harum id ipsum laudantium magni, minus nemo nesciunt nisi numquam odio officia placeat quod!</h1>-->
+   </div>
+
+</body>
+
+</html>
