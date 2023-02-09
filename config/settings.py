@@ -28,6 +28,11 @@ INSTALLED_APPS = [
     'core',
     'python',
     'java',
+    'cisharp',
+    'javascript',
+    'kotlin',
+    'HTML',
+    'CSS',
 ]
 
 MIDDLEWARE = [
